@@ -1,66 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: #1b202c;
+  color: white;
 }
 
 header {
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5em;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
 }
 
 main {
-    text-align: center;
-    max-width: 500px;
-    padding: 20px;
-    margin: auto;
+  text-align: center;
+  max-width: 500px;
+  padding: 20px;
+  margin: auto;
 }
 
 form {
-    width: 100%;
+  width: 100%;
 }
 
 form input {
-    width: 100%;
-    outline: none;
-    padding: 10px;
-    border: 1px solid rgb(78, 77, 77);
-    border-radius: 5px;
-    margin: 15px 0px;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  border: 1px solid rgb(78, 77, 77);
+  border-radius: 5px;
+  margin: 15px 0px;
 }
 
 form button {
-    padding: 10px;
-    border-radius: 5px;
-    width: 80%;
-    border: none;
-    background-color: rgb(55, 114, 143);
-    color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  border: none;
+  background-color: rgb(55, 114, 143);
+  color: white;
 }
 
 .tasks .task {
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(139, 139, 247);
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(139, 139, 247);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .tasks .task button {
-    width: 25px;
-    background-color: red;
-    height: 25px;
-    border-radius: 50%;
-    border: none;
+  width: 25px;
+  background-color: red;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
 }
 
 .tasks .task button:hover {
-    filter: brightness(80%);
+  filter: brightness(80%);
 }
